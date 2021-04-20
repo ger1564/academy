@@ -15,7 +15,9 @@
     'version':'0.1',
     'depends': ['base'],
     'data': [
-        'views/vistacourse.xml'
+        'views/vistacourse.xml',
+        'security/academy_security.xml',
+        'security/ir.model.access.csv'
     
     ],
     'demo': [
