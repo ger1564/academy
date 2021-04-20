@@ -15,7 +15,7 @@
     'version':'0.1',
     'depends': ['base'],
     'data': [
-
+        'views/vistacourse.xml'
     
     ],
     'demo': [
