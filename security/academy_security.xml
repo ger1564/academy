@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <odoo>
     <record id="group_academy_admin" model="res.group">
         <field name="name">Academy / Admin</field>
@@ -13,5 +12,5 @@
         <field name="perm_unlink" eval="1"/>
         <field name="domain_force">[('active','=',True)]</field>
         <field name="model_id" ref="model_academy_course"/>
-    <record>
+    </record>
 </odoo>
